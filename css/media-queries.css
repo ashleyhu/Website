@@ -1,0 +1,177 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1200px) {
+
+    .about_us_p {
+        padding-left: 0px;
+    }
+
+    .member-thumb {
+        width: 230px;
+        position: relative;
+    }
+
+    figure.mix:hover figcaption::before,
+	figure.mix:hover p {
+        line-height: 14px;
+    };
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .about_us_p {
+        padding-left: 0px;
+    }
+
+/* team */
+
+    .member-thumb .overlay h5 {
+        margin: 25px 0;
+    }
+
+    .member-thumb {
+        margin: 0 auto;
+    }
+
+    .member-thumb {
+        width: 230px;
+        position: relative;
+    }
+/* works */
+
+    .work-item {
+        width: 49%;
+    }
+
+    .post {
+        margin-bottom: 50px;
+    };
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+    .about_us_p {
+        padding-left: 0px;
+    }
+
+    .navbar-default {
+        border: 0;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: transparent;
+        background: #000;
+    }
+
+    .navbar-default .navbar-brand:hover,
+	.navbar-default .navbar-brand:focus,
+	.navbar-default .navbar-brand:active,
+	.navbar-default .navbar-brand.active {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 30px;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+
+    .team-member {
+        margin-bottom: 30px;
+    }
+
+    .team-member:last-child {
+        margin-bottom: 0;
+    }
+
+    .member-thumb {
+        margin: 0 auto;
+    }
+
+    .work-filter ul li a {
+        font-size: 10px;
+        padding: 5px 10px;
+        letter-spacing: 2px;
+    }
+
+    figure.mix:hover figcaption::before,
+figure.mix:hover p {
+        line-height: 14px;
+    }
+
+    .post {
+        margin-bottom: 50px;
+    };
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .work-item {
+        left: 1% !important;
+        width: 49%;
+    };
+}
+
+/*============================================================
+ Landscape phones and down 
+==============================================================*/
+
+@media only screen and (max-width: 479px) {
+    .work-item {
+        left: 4% !important;
+        width: 92%;
+    }
+
+    .portfolio_title span {
+        font-size: 3em;
+    }
+
+    .subsc_title span {
+        font-size: 3em;
+    }
+
+    .subscribe .fEmail {
+        float: left;
+        max-width: 200px;
+    }
+
+    .subscribe .btn {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .blog_title span {
+        font-size: 3em;
+    };
+}
