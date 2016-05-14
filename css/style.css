@@ -826,7 +826,7 @@ figure.mix:hover figcaption::before,figure.mix:hover p {
 }
 
 figure.mix:hover figcaption {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 figure.mix:hover img {
@@ -1783,6 +1783,10 @@ footer {
 
 .copyright_text i {
     color: #efc337;
+}
+
+.black-fix {
+    background-color: #000;
 }
 
 /*----------------------------------------------------------------
