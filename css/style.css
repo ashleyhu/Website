@@ -1931,12 +1931,12 @@ div.owl-buttons {
     text-decoration: none;
 }
 
-.invision p a {
+a.invision {
     color: #efc337;
-    font-weight: 600;
+    font-weight: 500;
 }
 
-.invision p a:hover {
+a.invision:hover {
     color: #000;
     text-decoration: none;
 }
