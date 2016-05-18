@@ -1930,3 +1930,13 @@ div.owl-buttons {
     color: #000;
     text-decoration: none;
 }
+
+.invision p a {
+    color: #efc337;
+    font-weight: 600;
+}
+
+.invision p a:hover {
+    color: #000;
+    text-decoration: none;
+}
