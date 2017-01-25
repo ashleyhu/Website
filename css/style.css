@@ -1,7 +1,13 @@
+html {
+    overflow-y: hidden !important; 
+    margin-right: 0px !important;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     background-color: #fafafa;
     overflow-x: hidden !important; 
+    overflow-y: hidden !important; 
 }
 
 p {
@@ -349,6 +355,10 @@ header:before {
     About
 ----------------------------------------------------------------*/
 
+.about_title {
+    margin-top: -50px;
+}
+
 .about_title h2 {
     font-size: 1em;
     color: #000;
@@ -419,7 +429,7 @@ header:before {
 }
 
 .about_us_p b.thicker {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .about_us_area a.full-length {
@@ -644,7 +654,7 @@ a:hover {
 }
 
 .margin_fix {
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .center-align {
@@ -1298,7 +1308,7 @@ div.row.margin.text-center {
     font-size: 1em;
     color: #000;
     text-transform: uppercase;
-    margin-top: 100px;
+    margin-top: 80px;
     letter-spacing: 3px;
     font-weight: 300;
 }
@@ -1407,6 +1417,9 @@ div.row.margin.text-center {
     .post.hover-overlay {
         width: 100%;
     }
+    .post.col-xs-4 {
+        width: 100%;
+    }
 }
 
 img.flipped {
@@ -1470,10 +1483,11 @@ div.row.blog {
     background-size: cover;
     border-top: 194px solid #fafafa;
     border-right: 3000px solid transparent;
+    margin-top: -50px;
 }
 
 .clients div.row.margin.text-center {
-    margin-top: 180px;
+    margin-top: 130px;
 /*    width: 100%;*/
 }
 
@@ -1967,7 +1981,7 @@ div.owl-buttons {
 
 a.invision {
     color: #efc337;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 a.invision:hover {
@@ -1976,7 +1990,7 @@ a.invision:hover {
 }
 
 .quotes {
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 12px;
     font-size: 16px;
 }
