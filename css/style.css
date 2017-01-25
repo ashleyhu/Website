@@ -1550,6 +1550,16 @@ a.resume-button {
     margin-top: 15px;
 }
 
+.carousel-adjust {
+    margin: 0 auto;
+}
+
+@media (min-width: 992px){
+    .carousel-adjust {
+        width: 50%;
+    }
+}
+
 /*----------------------------------------------------------------
     Contact
 ----------------------------------------------------------------*/
