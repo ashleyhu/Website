@@ -211,7 +211,7 @@ a.weight_change:hover {
 @media(max-width:768px) {
     div.navbar-collapse.collapse.in,
     div.navbar-collapse.collapsing {
-        width: 135px;
+        width: 152px;
         float: right;
         text-align: right;
         box-shadow: none;
