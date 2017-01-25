@@ -221,6 +221,10 @@ a.weight_change:hover {
     }
 }
 
+.navbar-header img.logo-overlay {
+    width: 70px;
+}
+
 .navbar-header img.logo-overlay:hover {
     -webkit-filter: brightness(140%); ;
     -webkit-transition: all 0.25s ease;
@@ -524,7 +528,7 @@ header:before {
 ----------------------------------------------------------------*/
 
 div.round-pic img {
-    max-width: 100px;
+    max-width: 115px;
     margin: auto;
     border-radius: 100%;
 }
@@ -558,8 +562,13 @@ div.round-pic img {
 .member-thumb .overlay.line-fix h5 {
     font-size: 10px;
     line-height: 0px;
-    margin-top: 22px;
+    margin-top: 21px;
     margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.member-thumb .overlay.line-fix h5.line-fix2 {
+    margin-top: 29px;
 }
 
 .member-thumb .overlay p {
@@ -2046,5 +2055,29 @@ Gallery box
 }
 
 .gallery-box:hover .gallery:after {
+	opacity: 1;
+}
+
+.gallery-box .gallery-link {
+	display: block;
+	margin: 20px 0 0;
+}
+
+.gallery-box .gallery-link:after {
+	background: rgba(255, 255, 255, 0.3);
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.gallery-box:hover .gallery-link:after {
 	opacity: 1;
 }
