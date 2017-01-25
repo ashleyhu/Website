@@ -872,6 +872,7 @@ figure.mix:hover img {
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
+    margin-top: 45px;
 }
 
 .work_area ul {
@@ -2019,6 +2020,26 @@ a.invision:hover {
 
 .quotes a:hover {
     font-style: italic;
+}
+
+.h5-center {
+    text-align: center;
+}
+
+.portfolio_block h3.h5-portfolio {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+
+img.portfolio-width {
+    width: 100%;
+}
+
+p.googleplay {
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /* ------------------------------------------------------------------
