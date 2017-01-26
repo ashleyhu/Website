@@ -1556,7 +1556,7 @@ a.resume-button {
 
 @media (min-width: 992px){
     .carousel-adjust {
-        width: 50%;
+        width: 60%;
     }
 }
 
@@ -2044,6 +2044,10 @@ a.invision:hover {
 
 img.portfolio-width {
     width: 100%;
+}
+
+img.portfolio-width.portfolio-top {
+    margin-top: 10px;
 }
 
 p.googleplay {
