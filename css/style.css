@@ -383,11 +383,12 @@ header:before {
 
 .about_title h2.header-position {
     font-weight: 500;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 .about_title h2.header-position a {
     text-decoration: underline;
+    color: #000;
 }
 
 .about_title h2.header-position a:hover {
