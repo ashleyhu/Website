@@ -389,6 +389,7 @@ header:before {
 .about_title h2.header-position a {
     text-decoration: underline;
     color: #000;
+    font-weight: 500;
 }
 
 .about_title h2.header-position a:hover {
