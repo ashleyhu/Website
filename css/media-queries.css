@@ -1,9 +1,306 @@
 /*============================================================
-	For Small Desktop
+ Min 
 ==============================================================*/
 
-@media (min-width: 980px) and (max-width: 1200px) {
+@media only screen and (min-width: 480px) {
+    
+    .skills .col-md-8.col-md-offset-2 {
+        width: 65%;
+        margin-left: 16.66666667%;
+    }
+    
+    .hover-overlay:hover {
+        background-color: #000;
+    }
+    .hover-overlay:hover h3,
+    .hover-overlay:hover p {
+        color: #E0E0E0;
+    }
+    
+    .work_area ul {
+        width: 480px;
+        margin: auto;
+    }
+    
+    .blog .guzheng {
+        padding-right: 5px;
+    }
+    
+    .blog .bouldering {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .blog .woodshop {
+        padding-left: 5px;
+    }
+}
 
+
+@media (min-width: 768px) {
+
+   .skills .col-md-8.col-md-offset-2 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .about_us_area .uncollapse-margin {
+        margin-left: -15px;
+    }
+    
+    .work_area .row {
+        margin-left: 2px;
+    }
+}
+
+@media (min-width: 992px) {
+
+   .features .col-md-offset-3 {
+        margin-right: 25%;
+    }
+    
+    .carousel-adjust {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .margin-align {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/*============================================================
+ Max 
+==============================================================*/
+
+@media only screen and (max-width: 1200px) {
+    
+    .header.header-important,
+    .header.header-important span,
+    .header.header-important h2 {
+        margin: auto;
+        text-align: center;
+        float: none;
+        display: block;
+        margin-top: 12px;
+    }
+    
+    .header.header-important {
+        margin-top: 20px;
+    }
+    
+    .work_area .double p {
+        margin-top: -12px;
+    }
+
+    .work_area p.single {
+        margin-top: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 991px) {
+
+    .about_us_p {
+        padding-left: 0px;
+    }
+
+    .navbar-default {
+        border: 0;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        margin-right: 16px;
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: transparent;
+        background: #000;
+    }
+
+    .navbar-default .navbar-brand:hover,
+	.navbar-default .navbar-brand:focus,
+	.navbar-default .navbar-brand:active,
+/*	.navbar-default .navbar-brand.active */
+    {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 30px;
+        height: 2px;
+        border-radius: 1px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #BDBDBD;
+    }
+    
+    .navbar-default .navbar-toggle:hover .icon-bar {
+        background-color: #FFF;
+    }
+
+    .team-member {
+        margin-bottom: 30px;
+    }
+
+    .team-member:last-child {
+        margin-bottom: 0;
+    }
+
+    .member-thumb {
+        margin: 0 auto;
+    }
+
+    figure.mix:hover figcaption::before,
+    figure.mix:hover p {
+        line-height: 14px;
+    }
+    
+    .navbar-toggle {
+        margin-right: 16px;
+    }
+    
+    .navbar-header img.logo-overlay {
+        margin-left: 12px;
+    }
+    
+    div.navbar-collapse.collapse.in,
+    div.navbar-collapse.collapsing {
+        width: 152px;
+        float: right;
+        text-align: right;
+        box-shadow: none;
+        margin-top: 4px;
+    }
+    
+    .navbar {
+        height: 60px;
+    }
+    
+    .about_us_area .col-md-4 h4 {
+        display: none;
+    }  
+    
+    .about_us_area img.img-fixed {
+    margin-bottom: 30px;
+    }
+    
+    .about_us_area div.linkedin {
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #contact_form .center-form{
+        text-align: center;
+    } 
+    
+    .work_area .margin-align {
+        margin-left: 12px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    span.smaller-positions {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    
+    .row.mt-44 {
+        margin: auto;
+    }
+    
+    div.margin-problem.col-xs-offset-2 {
+        margin-left: auto;
+        margin-top: 44px;
+        width: 100%;
+    }
+}
+    
+@media only screen and (max-width: 479px) {
+    .work-item {
+        left: 4% !important;
+        width: 92%;
+    }
+
+    .portfolio_title span {
+        font-size: 3em;
+    }
+
+    .subsc_title span {
+        font-size: 3em;
+    }
+
+    .subscribe .fEmail {
+        float: left;
+        max-width: 200px;
+    }
+
+    .subscribe .btn {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .blog_title span {
+        font-size: 3em;
+    };
+    
+    .features .col-xs-3 {
+        width: 50%;
+    }
+    
+    h2.git {
+        margin-bottom: 30px;
+    }
+    
+    .work-filter ul li a {
+        font-size: 10px;
+        padding: 5px 10px;
+        letter-spacing: 2px;
+    }
+    
+    .post.hover-overlay {
+        width: 100%;
+    }
+    
+    .post.col-xs-4 {
+        width: 100%;
+    }
+    
+    .blog .col-xs-4.guzheng,
+    .blog .col-xs-4.bouldering,
+    .blog .col-xs-4.woodshop {
+        padding-right: 30px;
+        padding-left: 30px;
+    };
+}
+
+/*============================================================
+ Between 
+==============================================================*/
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    #ABOUT .col-md-offset-1 {
+        margin-left: 12%;     
+    }
+    
     .about_us_p {
         padding-left: 0px;
     }
@@ -19,12 +316,7 @@
     };
 }
 
-
-/*============================================================
-	Tablet (Portrait) Design for a width of 768px
-==============================================================*/
-
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
     .about_us_p {
         padding-left: 0px;
@@ -55,86 +347,6 @@
     };
 }
 
-
-/*============================================================
-	Mobile (Portrait) Design for a width of 320px
-==============================================================*/
-
-@media only screen and (max-width: 767px) {
-
-    .about_us_p {
-        padding-left: 0px;
-    }
-
-    .navbar-default {
-        border: 0;
-        background-color: transparent;
-    }
-
-    .navbar-default .navbar-toggle {
-        border-color: transparent;
-    }
-
-    .navbar-default .navbar-collapse {
-        border-color: transparent;
-        background: #000;
-    }
-
-    .navbar-default .navbar-brand:hover,
-	.navbar-default .navbar-brand:focus,
-	.navbar-default .navbar-brand:active,
-	.navbar-default .navbar-brand.active {
-        color: #fff;
-    }
-
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-        background-color: transparent;
-    }
-
-    .navbar-toggle .icon-bar {
-        display: block;
-        width: 30px;
-        height: 2px;
-        border-radius: 1px;
-    }
-
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #FFF;
-    }
-
-    .team-member {
-        margin-bottom: 30px;
-    }
-
-    .team-member:last-child {
-        margin-bottom: 0;
-    }
-
-    .member-thumb {
-        margin: 0 auto;
-    }
-
-    .work-filter ul li a {
-        font-size: 10px;
-        padding: 5px 10px;
-        letter-spacing: 2px;
-    }
-
-    figure.mix:hover figcaption::before,
-figure.mix:hover p {
-        line-height: 14px;
-    }
-
-    .post {
-        margin-bottom: 50px;
-    };
-}
-
-
-/*============================================================
-	Mobile (Landscape) Design for a width of 480px
-==============================================================*/
-
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
     .work-item {
@@ -143,35 +355,12 @@ figure.mix:hover p {
     };
 }
 
-/*============================================================
- Landscape phones and down 
-==============================================================*/
-
-@media only screen and (max-width: 479px) {
-    .work-item {
-        left: 4% !important;
-        width: 92%;
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+    .work_area .double p {
+        margin-top: -28px;
     }
 
-    .portfolio_title span {
-        font-size: 3em;
+    .work_area p.single {
+        margin-top: -15px;
     }
-
-    .subsc_title span {
-        font-size: 3em;
-    }
-
-    .subscribe .fEmail {
-        float: left;
-        max-width: 200px;
-    }
-
-    .subscribe .btn {
-        padding-left: 4px;
-        padding-right: 4px;
-    }
-
-    .blog_title span {
-        font-size: 3em;
-    };
 }

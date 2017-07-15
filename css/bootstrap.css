@@ -3915,7 +3915,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #eee #eee #ddd;
 }
 .nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
@@ -3923,6 +3922,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
+
+.nav-tabs > li.active > a:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
@@ -4636,8 +4641,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pagination > .active > a,
 .pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
   z-index: 2;
@@ -4646,6 +4649,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #337ab7;
   border-color: #337ab7;
 }
+
+.pagination > .active > a:hover,
+.pagination > .active > span:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
 .pagination > .disabled > span:focus,
