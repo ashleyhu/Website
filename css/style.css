@@ -55,6 +55,10 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 100px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .mb-100 {
     margin-bottom: 100px;
 }
@@ -2080,6 +2084,12 @@ div.owl-buttons {
 /*    font-style: italic;*/
 }
 
+.project_feature.left-align h3,
+.project_feature.left-align h2,
+.project_feature.left-align p {
+    text-align: left;
+}
+
 .work_info {
     list-style: none;
 }
@@ -2152,7 +2162,11 @@ a.invision:hover {
 
 .quotes a {
     color: #efc337;
-    font-weight: 300;
+    font-weight: 500;
+}
+
+.quotes a:hover {
+    color: #000;
 }
 
 .h5-center {
@@ -2175,7 +2189,7 @@ img.portfolio-width.portfolio-top {
 
 p.googleplay {
     font-weight: 500;
-    margin-top: 40px;
+    margin-top: 24px;
     margin-bottom: 20px;
 }
 
