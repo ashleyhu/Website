@@ -59,6 +59,10 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
 }
 
+.mb-16 {
+    margin-bottom: 16px;
+}
+
 .mb-100 {
     margin-bottom: 100px;
 }
@@ -1011,6 +1015,10 @@ figure.mix:hover img {
     margin-top: 45px;
 }
 
+.portfolio_block h3.inspiro-title {
+    letter-spacing: 2px;
+}
+
 .work_area ul {
     padding-left: 0px;
 }
@@ -1553,6 +1561,15 @@ img.flipped {
 
 div.row.blog {
     margin-bottom: 0px;
+}
+
+a.guzheng-vid {
+    font-weight: 500;
+    color: #efc337;
+}
+
+a.guzheng-vid:hover {
+    color: black;
 }
 
 /*----------------------------------------------------------------
