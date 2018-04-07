@@ -253,11 +253,12 @@ a.color_change:hover {
 
 .navbar-header img.logo-overlay {
     width: 70px;
+    -webkit-filter: brightness(80%); 
 /*    margin-left: 12px;*/
 }
 
 .navbar-header img.logo-overlay:hover {
-    -webkit-filter: brightness(140%); ;
+    -webkit-filter: brightness(100%); ;
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -ms-transition: all 0.25s ease;
