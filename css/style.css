@@ -450,7 +450,7 @@ header:before {
 .about_title h2.header-position {
     font-weight: 500;
     margin-top: 12px;
-    text-align: left;
+/*    text-align: left;*/
 }
 
 .about_title.portfolio_subheading {
@@ -504,6 +504,10 @@ header:before {
 
 .about_title.portfolio_header span {
 /*    margin-left: -150px;*/
+}
+
+.about_title.portfolio_header span.ugly:hover {
+      text-decoration: underline;
 }
 
 .about_title.portfolio_header .header{
@@ -1018,6 +1022,18 @@ figure.mix:hover img {
 
 .portfolio_block h3.inspiro-title {
     letter-spacing: 2px;
+}
+
+.portfolio_block h3.inspiro-heading {
+    letter-spacing: 1px;
+}
+
+.portfolio_block h3.ugly2 {
+    color: black;
+}
+
+.portfolio_block h3.ugly2:hover {
+    text-decoration: underline;
 }
 
 .work_area ul {
@@ -2293,4 +2309,15 @@ Gallery box
 
 .gallery-box:hover .gallery-link:after {
 	opacity: 1;
+}
+
+/* ------------------------------------------------------------------
+Giphy
+------------------------------------------------------------------- */
+
+img.giphy {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
