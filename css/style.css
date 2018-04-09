@@ -27,8 +27,20 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Lato', sans-serif;
 }
 
-.mb-25 {
-    margin-bottom: 25px;
+.mt-12 {
+    margin-top: 16px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-24 {
+    margin-top: 24px;
 }
 
 .mt-28 {
@@ -59,20 +71,24 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
 }
 
-.mb-16 {
-    margin-bottom: 16px;
-}
-
-.mb-100 {
-    margin-bottom: 100px;
-}
-
 .mt-110 {
     margin-top: 110px;
 }
 
 .mt-150 {
     margin-top: 150px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 
 .margin {
