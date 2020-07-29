@@ -14,8 +14,8 @@ body {
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:#000; /* change if the mask should have another color then white */
-	z-index:99; /* makes sure it stays on top */
+	background-color: black; /* change if the mask should have another color then white */
+	z-index:3000; /* makes sure it stays on top */
 }
 
 #status {
@@ -24,9 +24,30 @@ body {
 	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
-	background-image:url(../images/status.png); /* path to your loading animation */
-	opacity: 0.9;
+	background-image:url(../images/logo.svg); /* path to your loading animation */
+    filter: invert(76%) sepia(5%) saturate(1964%) hue-rotate(350deg) brightness(88%) contrast(95%);
+    transform: scale(1);
+	opacity: 1;
     background-repeat:no-repeat;
 	background-position:center;
 	margin:-100px 0 0 -100px; /* is width and height divided by two */
+    animation: pulse 2s infinite;
+/*    animation-delay: 0.1s;*/
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
