@@ -433,7 +433,7 @@
     }
     
     .about_us_area img.img-responsive{
-        margin-top: 50px;
+        margin-top: 60px;
     }
 }
 
@@ -460,6 +460,7 @@
         margin-left: auto;
         margin-top: 44px;
         width: 100%;
+        margin-bottom: 60px;
     }
     
     .project_feature p.img_descript.project_title.thicker {
