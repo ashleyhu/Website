@@ -1,5 +1,5 @@
 html {
-    overflow-y: hidden !important; 
+/*    overflow-y: hidden !important; */
     margin-right: 0px !important;
 }
 
@@ -10,7 +10,7 @@ body {
 /*    background-color: #E6DDDE;*/
 /*    background-color: #E6DDDE;*/
     overflow-x: hidden !important; 
-    overflow-y: hidden !important; 
+/*    overflow-y: hidden !important; */
 }
 
 body.waves::after {
