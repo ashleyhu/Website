@@ -1,16 +1,11 @@
 html {
-/*    overflow-y: hidden !important; */
     margin-right: 0px !important;
 }
 
 body {
     font-family: 'futura-pt', sans-serif;
-/*    background-color: #F8DFDB;*/
     background-color: #C8A47E;
-/*    background-color: #E6DDDE;*/
-/*    background-color: #E6DDDE;*/
     overflow-x: hidden !important; 
-/*    overflow-y: hidden !important; */
 }
 
 body.waves::after {
