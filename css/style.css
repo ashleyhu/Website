@@ -3048,3 +3048,8 @@ img.portfolio_img.case_study2 {
 section {
     overflow-x: hidden !important;
 }
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
