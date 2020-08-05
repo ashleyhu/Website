@@ -3053,11 +3053,3 @@ img.portfolio_img.case_study2 {
 html, body {
     overflow-x: hidden !important;
 }
-
-body {
-/*    position: relative;*/
-    width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
