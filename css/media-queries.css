@@ -358,6 +358,10 @@
     .blog_title .portfolio_p {
         margin-top: 60px;
     }
+    
+    .more-mb-110 {
+        margin-bottom: 60px;
+    }
 }
 
 @media only screen and (max-width: 767px) {

@@ -168,6 +168,10 @@ h1,h2,h3,h4,h5,h6,a,span {
     margin-bottom: 100px;
 }
 
+.more-mb-110 {
+    margin-bottom: 110px;
+}
+
 .mb-136 {
     margin-bottom: 132px;
 }
@@ -2361,6 +2365,7 @@ footer {
 /*    padding-top: 50px;*/
     padding-bottom: 16px;
     margin-top: -16px;
+    text-align: center;
 }
 
 .copyright_text p {
