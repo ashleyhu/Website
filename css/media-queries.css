@@ -377,7 +377,6 @@
     .project_feature p.img_descript.project_descript {
         margin-left: 0em;
         margin-right: 0em;
-        
     }
 
     .project_feature p.img_descript.project_title.left,
@@ -433,7 +432,7 @@
     }
     .container {
         max-width: 100% !important;
-        overflow-x: hidden !important;
+/*        overflow-x: hidden !important;*/
     }
 }
 
@@ -446,8 +445,7 @@
         line-height: 1.5em;
         text-align: left;
         padding-left: 16px;
-    }
-    
+    }    
     
 }
 
@@ -462,10 +460,18 @@
         margin-top: 44px;
         width: 100%;
     }
+    
+    .project_feature p.img_descript.project_title.thicker {
+        width: 100% !important;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-top: 4px;
+    }
 
 }
     
 @media only screen and (max-width: 479px) {
+    
     .work-item {
         left: 4% !important;
         width: 92%;
