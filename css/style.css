@@ -3064,6 +3064,20 @@ section {
     overflow-x: hidden !important;
 }*/
 
+/*shamelessly tryna use bad code to fix this scrollbar issue*/
+
 .container::-webkit-scrollbar {
   display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+    overflow-x: hidden !important;
 }
