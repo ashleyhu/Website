@@ -3063,3 +3063,7 @@ section {
 .container:before {
     overflow-x: hidden !important;
 }*/
+
+.container::-webkit-scrollbar {
+  display: none;
+}
