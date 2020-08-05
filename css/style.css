@@ -3044,3 +3044,7 @@ img.portfolio_img.case_study2 {
 .mailto-link:focus-within .hover-fix {
     margin-bottom: 16px !important;   
 }*/
+
+section {
+    overflow-x: hidden !important;
+}
