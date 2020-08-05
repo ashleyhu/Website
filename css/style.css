@@ -3048,6 +3048,8 @@ img.portfolio_img.case_study2 {
     margin-right: -15px;
 }
 
+/*removes horizontal scroll*/
+
 html, body {
     overflow-x: hidden !important;
 }
