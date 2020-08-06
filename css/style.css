@@ -151,6 +151,10 @@ h1,h2,h3,h4,h5,h6,a,span {
     margin-bottom: 40px;
 }
 
+.mb-48 {
+    margin-bottom: 48px;
+}
+
 .mb-54 {
     margin-bottom: 54px;
 }
@@ -1132,6 +1136,11 @@ a:hover {
     letter-spacing: 1px;
     font-weight: 300;
     font-family: 'orpheuspro', serif;
+}
+
+.pic_subtitle {
+    margin-top: 16px;
+/*    font-size: 12px;*/
 }
 
 .work-filter {

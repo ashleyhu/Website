@@ -425,6 +425,14 @@
         margin-bottom: 60px;
         margin-top: 0px;
     }
+    
+    .section_overlay.hide-small {
+        display: none;
+    }
+    
+    .hide-small-margin {
+        margin-bottom: 120px;
+    }
 }
 
 @media screen and (max-width: 667px) {
@@ -464,7 +472,7 @@
         width: 100% !important;
         padding-left: 0px;
         padding-bottom: 0px;
-        padding-top: 4px;
+        padding-top: 2px;
     }
 }
     
