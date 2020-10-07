@@ -648,7 +648,8 @@ header:before {
     text-decoration: none;
 }
 
-.about_title h2 a.linkedin-adjust:hover i.linkedin-header {
+.about_title h2 a.linkedin-adjust:hover i.linkedin-header,
+.about_title h2 a.linkedin-adjust:focus i.linkedin-header{
     text-shadow: 1.2px 1.2px black;
     color: #F2D4A2;
 }
@@ -1917,10 +1918,10 @@ div.row.margin.text-center {
 
 .blog img {
     display: inline;
-    margin-top: 15px;
+    margin-top: 8vh;
     width: auto;
     object-fit: cover;
-    margin-left: -40px;
+    margin-left: -20%;
 }
 
 /*
